@@ -1,0 +1,7 @@
+<VirtualHost *:8090>
+    DocumentRoot "C:\xampp\htdocs\SEUDIRETORIO\public"
+    <Directory "C:\xampp\htdocs\SEUDIRETORIO\public">
+      Require all granted
+    </Directory>
+</VirtualHost>
+
